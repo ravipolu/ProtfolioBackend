@@ -9,7 +9,7 @@ const app = express();
 const cors =require('cors');
 
 app.use(cors({
-    origin:"https://portfolio-frontend-iota-seven.vercel.app/home", //"http://localhost:3000"
+    origin:"https://portfolio-frontend-iota-seven.vercel.app/", //"http://localhost:3000"
 }))
 dotenv.config({path:"config/config.env"});
 app.use(express.json());
